@@ -41,6 +41,7 @@ namespace Elephant
 
         private void button4_Click(object sender, EventArgs e)
         {
+            lloyd.TellMe("Hi", lucinda);
             lloyd = lucinda;
             lloyd.EarSize = 4321;
             lloyd.WhoAmI();
